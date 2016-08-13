@@ -9,3 +9,4 @@ RUN curl https://storage.googleapis.com/golang/go1.6.3.linux-amd64.tar.gz | sudo
 RUN mkdir -p /usr/local/golibs
 ENV PATH /usr/local/go/bin:/usr/local/golibs/bin:$PATH
 ENV GOROOT /usr/local/go
+ENV GOPATH /usr/local/golibs
